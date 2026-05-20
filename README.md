@@ -18,8 +18,10 @@ From the [blogpost on gamedev.center](https://gamedev.center/run-unity-tests-fas
 
 ## How to use
 
-Headless unit tests are in `Assets/Tests/Headless`.
+Headless unit tests are in `Assets/Tests/Headless~`.
 Run `dotnet test` to execute these tests.
+
+The `~` is used as folder name suffix to make Unity Editor ignore it during compilation. See [Unity Manual on Special Folders](https://docs.unity3d.com/Manual/SpecialFolders.html)
 
 ## How it works
 
